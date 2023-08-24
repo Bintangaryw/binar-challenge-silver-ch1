@@ -23,9 +23,35 @@
                 <a class="navbar-brand" href="#">
                   <img src="img/bcrlogo.png" width="80px" height="30px" alt="" />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                   <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel" style="width: 65%">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Why Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <button class="btn btn-success" type="submit">Register</button>
+                    </form>
+                  </div>
+                </div>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2">
                     <li class="nav-item px-2">
@@ -54,7 +80,7 @@
 
         <!-- Start Row -->
         <div class="container">
-          <div class="row pt-3">
+          <div class="row">
             <div class="col-sm-12 col-md-6 col-lg d-flex flex-column align-items-start justify-content-center">
               <h1 style="font-weight: 700">Sewa & Rental Mobil Terbaik di Kawasan Semarang</h1>
               <p style="font-size: 14px">
@@ -194,7 +220,7 @@
 
     <!-- Start Sewa Section -->
     <section id="sewa" style="margin-bottom: 75px">
-      <div class="container p-5 rounded-3 text-center d-flex flex-column justify-content-center align-items-center" style="background-color: #0d28a6">
+      <div class="container p-5 rounded-3 text-center d-flex flex-column justify-content-center align-items-center" style="background-color: #0d28a6" id="bluebanner">
         <h1 class="text-white">Sewa Mobil di Semarang Sekarang</h1>
         <div class="row justify-content-center">
           <div class="col-lg-8 pt-2">
